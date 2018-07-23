@@ -56,16 +56,16 @@ public class OSSAuthCredentialsProvider extends OSSFederationCredentialProvider 
                 authData = mDecoder.decode(authData);
             }
             JSONObject jsonObj = new JSONObject(authData);
-            int statusCode = jsonObj.getInt("StatusCode");
-            if (statusCode == 200) {
-                String ak = jsonObj.getString("AccessKeyId");
-                String sk = jsonObj.getString("AccessKeySecret");
-                String token = jsonObj.getString("SecurityToken");
-                String expiration = jsonObj.getString("Expiration");
+            int statusCode = jsonObj.getInt("resultCode");
+            if (statusCode == 1) {
+                String ak = jsonObj.getString("accessKeyId");
+                String sk = jsonObj.getString("accessKeySecret");
+                String token = jsonObj.getString("securityToken");
+                String expiration = jsonObj.getString("expiration");
                 authToken = new OSSFederationToken(ak, sk, token, expiration);
             } else {
-                String errorCode = jsonObj.getString("ErrorCode");
-                String errorMessage = jsonObj.getString("ErrorMessage");
+                String errorCode = jsonObj.getString("errorCode");
+                String errorMessage = jsonObj.getString("errorMessage");
                 throw new ClientException("ErrorCode: " + errorCode + "| ErrorMessage: " + errorMessage);
             }
             return authToken;

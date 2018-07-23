@@ -27,4 +27,7 @@
     <string name="batch_upload">batch</string>
     <string name="trigger_callback">callback</string>
     <string name="image_persist">image persist</string>
+    <string name="securityToken">CAISlQJ1q6Ft5B2yfSjIr4iHffnkioVP4faMWHaFvjIDdMd517Pspzz2IH1PfXlhBOgesvs2mG1U7P4clqJ4T55IQ1Dza8J148ysWqBwwM6T1fau5Jko1beXewHKeSOZsebWZ+LmNqS/Ht6md1HDkAJq3LL+bk/Mdle5MJqP+/EFA9MMRVv6F3kkYu1bPQx/ssQXGGLMPPK2SH7Qj3HXEVBjt3gb6wZ24r/txdaHuFiMzg+46JdM/9+qfMj/MZgzZcYhD4jv5oEsKPqdihw3wgNR6aJ7gJZD/Tr6pdyHCzFTmU7baLOEo4A3dFMmP/RnR/Qc8uKPn/llt+reiMHw0A0IMexLTynEWMW42sraEf+kJgbqzjIA1/ekGoABDmSjHe4MgyYkMFRZxchWfzETFQJ61RzunbEBTcazENX2sDV6F0V3cPcQ9hVsfrbaOBq+vs+InxKVK4eFzk6xJEG0kMH1sRzBFsqWn9vcaTlBAqGTUXcuXJPpvms1IlNKCbsX0TKP5csMeE8XArme/S5PPrcvJvTU81xFKyp6dBU=</string>
+    <string name="accessKeyId">STS.NK26CPgZnV4gZP4Z2VxHU8vGE</string>
+    <string name="accessKeySecret">4ixwM7Zde1NZJGqq9D4iFarhKGvHBxZgexYJH5R1moZX</string>
 </resources>
